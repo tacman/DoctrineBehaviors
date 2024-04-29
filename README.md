@@ -21,6 +21,13 @@ It currently handles:
 composer require knplabs/doctrine-behaviors
 ```
 
+## Installation for Symfony 7
+
+```bash
+composer config repositories.jfsenechal_doctrine_behaviors '{"type": "vcs", "url": "git@github.com:jfsenechal/DoctrineBehaviors.git"}'
+composer require knplabs/doctrine-behaviors:"dev-sf7.0 as 2.6.3"
+```
+
 ## Usage
 
 All you have to do is to define a Doctrine entity:
