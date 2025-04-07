@@ -1,6 +1,6 @@
 {
-    "name": "knplabs/doctrine-behaviors",
-    "description": "Doctrine Behavior Traits",
+    "name": "tacman/doctrine-behaviors",
+    "description": "Doctrine Behavior Traits, fork of knplabs/doctrine-behaviors",
     "type": "symfony-bundle",
     "keywords": [
         "behaviors", "doctrine", "timestampable", "translatable", "blameable", "softdeletable", "tree", "uuid"

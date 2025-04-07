@@ -4,6 +4,19 @@
 
 This PHP library is a collection of traits and interfaces that add behaviors to Doctrine entities and repositories.
 
+This is a fork of js..., which itself is a fork of knplabs/doctrine-behaviors
+
+The purpose of this fork is to be able to install with the latest versions of dependencies and PHP
+
+```bash
+composer req tacman/doctrine-behaviors
+
+```
+composer config repositories.behaviors '{"type": "path", "url": "/home/tac/g/tacman/DoctrineBehaviors"}'
+composer config repositories.behaviors '{"type": "vcs", "url": "git@github.com:tacman/DoctrineBehaviors.git"}'
+composer req knplabs/doctrine-behaviors:dev-sf7.0
+
+
 It currently handles:
 
  * [Blameable](/docs/blameable.md)
